@@ -25,6 +25,9 @@ task('clean', function () {
 
 task('copy', function () {
     gulp.src([
+        "front/iconfont/**/*.*"
+    ]).pipe(gulp.dest(path.resolve(outDir(), 'iconfont')));
+    gulp.src([
         "node_modules/zone.js/dist/zone.min.js",
         "node_modules/core-js/client/shim.min.js"
     ]).pipe(gulp.dest(path.resolve(outDir(), 'js')));

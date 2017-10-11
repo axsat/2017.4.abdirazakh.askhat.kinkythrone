@@ -44,4 +44,8 @@ public class Modules {
   public static File controllerDir() {
     return findDir("education.controller");
   }
+
+  public static File samplesDir() {
+    return findDir("education.samples");
+  }
 }

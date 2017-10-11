@@ -4,7 +4,8 @@ import {BrowserModule} from "@angular/platform-browser";
 import {HttpService} from "../service/HttpService";
 import {HttpModule} from "@angular/http";
 import {
-    MdButtonModule, MdCardModule, MdFormFieldModule, MdInputModule, MdSidenavModule,
+    MdButtonModule, MdCardModule, MdDialogContent, MdDialogModule, MdFormFieldModule, MdIconModule, MdInputModule,
+    MdSidenavModule,
     MdTableModule, MdTabsModule,
     MdToolbarModule
 } from "@angular/material";
@@ -17,6 +18,9 @@ import {AdminContentComponent} from "./admin/admin-content.component";
 import {AdmiTabComponent} from "./admin/admin-tab-list.component";
 import {MainTab1Component} from "./main/main-tab-1.component";
 import {MainTab2Component} from "./main/main-tab-2.component";
+import {ClientToolbarComponent} from "./main/main-tab-1/client-toolbar.component";
+import {ClientTableComponent} from "./main/main-tab-1/client-table.component";
+import {ClientEditWindowComponent} from "./main/main-tab-1/client_edit_window.component";
 
 @NgModule({
     imports: [BrowserModule,
@@ -30,6 +34,8 @@ import {MainTab2Component} from "./main/main-tab-2.component";
         MdSidenavModule,
         MdTabsModule,
         MdTableModule,
+        MdIconModule,
+        MdDialogModule,
         BrowserAnimationsModule
     ],
     declarations: [AppComponent,
@@ -39,8 +45,12 @@ import {MainTab2Component} from "./main/main-tab-2.component";
         AdminContentComponent,
         MainComponent,
         MainTab1Component,
+        ClientTableComponent,
+        ClientToolbarComponent,
+        ClientEditWindowComponent,
         MainTab2Component
     ],
+    entryComponents: [ClientEditWindowComponent],
     bootstrap: [AppComponent],
     providers: [HttpService]
 })
