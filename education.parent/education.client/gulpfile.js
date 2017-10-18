@@ -29,7 +29,6 @@ gulp.task('js-lib', function() {
         }));
 });
 
-
 gulp.task('js', function() {
     gulp.src("./front/js/app.js")
         .pipe(concat('scripts.js'))

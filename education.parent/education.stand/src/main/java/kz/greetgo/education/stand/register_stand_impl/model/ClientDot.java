@@ -2,51 +2,75 @@ package kz.greetgo.education.stand.register_stand_impl.model;
 
 public class ClientDot {
     public String id;
-    public String surname;
     public String name;
-    public String patronymic;
-    public Integer age;
-
-    private ClientDot() {
-        // private constructor
+    public String surname;
+    public String birthDate;
+    public String telephone;
+    public String email;
+    public String address;
+    public ClientDot(String id,String name,String surname,String birthDate,String telephone,String email,String address){
+        this.id = id;
+        this.birthDate = birthDate;
+        this.name = name;
+        this.surname = surname;
+        this.telephone = telephone;
+        this.email = email;
+        this.address = address;
     }
 
-    public static Builder newBuilder(){
-        return new ClientDot().new Builder();
+    public String getId() {
+        return id;
     }
 
-    public class Builder{
-        private Builder() {
-            // private constructor
-        }
+    public String getName() {
+        return name;
+    }
 
-        public Builder setId(String id){
-            ClientDot.this.id=id;
-            return this;
-        }
+    public String getSurname() {
+        return surname;
+    }
 
-        public Builder setSurname(String surname){
-            ClientDot.this.surname=surname;
-            return this;
-        }
+    public String getBirthDate() {
+        return birthDate;
+    }
 
-        public Builder setName(String name){
-            ClientDot.this.name=name;
-            return this;
-        }
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
+    }
 
-        public Builder setPatronymic(String patronymic){
-            ClientDot.this.patronymic=patronymic;
-            return this;
-        }
+    public String getTelephone() {
+        return telephone;
+    }
 
-        public Builder setAge(Integer age){
-            ClientDot.this.age=age;
-            return this;
-        }
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
 
-        public ClientDot build() {
-            return ClientDot.this;
-        }
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.client/education.client.iml" filepath="$PROJECT_DIR$/.idea/modules/education.client/education.client.iml" group="education.client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.client/education.client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/education.client/education.client_main.iml" group="education.client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.client/education.client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/education.client/education.client_test.iml" group="education.client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.controller/education.controller.iml" filepath="$PROJECT_DIR$/.idea/modules/education.controller/education.controller.iml" group="education.controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.controller/education.controller_main.iml" filepath="$PROJECT_DIR$/.idea/modules/education.controller/education.controller_main.iml" group="education.controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.controller/education.controller_test.iml" filepath="$PROJECT_DIR$/.idea/modules/education.controller/education.controller_test.iml" group="education.controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.parent.iml" filepath="$PROJECT_DIR$/.idea/modules/education.parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education.parent.iml" filepath="$PROJECT_DIR$/education.parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.parent_main.iml" filepath="$PROJECT_DIR$/.idea/modules/education.parent_main.iml" group="education.parent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.parent_test.iml" filepath="$PROJECT_DIR$/.idea/modules/education.parent_test.iml" group="education.parent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.stand/education.stand.iml" filepath="$PROJECT_DIR$/.idea/modules/education.stand/education.stand.iml" group="education.stand" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.stand/education.stand_main.iml" filepath="$PROJECT_DIR$/.idea/modules/education.stand/education.stand_main.iml" group="education.stand" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.stand/education.stand_test.iml" filepath="$PROJECT_DIR$/.idea/modules/education.stand/education.stand_test.iml" group="education.stand" />
+    </modules>
+  </component>
+</project>

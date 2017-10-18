@@ -1,4 +1,3 @@
 include 'education.client'
 include 'education.controller'
-include 'education.samples'
 include 'education.stand'

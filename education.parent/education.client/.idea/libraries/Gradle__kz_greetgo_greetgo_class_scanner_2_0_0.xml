@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: kz.greetgo:greetgo.class_scanner:2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kz.greetgo/greetgo.class_scanner/2.0.0/3963768fee2afe11fbeeebb0d2dcc1ef4f6cf20a/greetgo.class_scanner-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kz.greetgo/greetgo.class_scanner/2.0.0/ceeb8509fc5a225e448826aacc47d14d1861d144/greetgo.class_scanner-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

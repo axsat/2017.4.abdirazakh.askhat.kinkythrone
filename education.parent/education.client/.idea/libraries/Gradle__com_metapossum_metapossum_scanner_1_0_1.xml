@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.metapossum:metapossum-scanner:1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.metapossum/metapossum-scanner/1.0.1/9be23b8e5e83de9d82298d1682b0687323196343/metapossum-scanner-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.metapossum/metapossum-scanner/1.0.1/1b556fc26c4ac18dbf1ad74931d3533eace7d32/metapossum-scanner-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.client.iml" filepath="$PROJECT_DIR$/.idea/modules/education.client.iml" group="education.client" />
+      <module fileurl="file://$PROJECT_DIR$/education.client.iml" filepath="$PROJECT_DIR$/education.client.iml" group="education.client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/education.client_main.iml" group="education.client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/education.client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/education.client_test.iml" group="education.client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1028963613/education.controller.iml" filepath="$PROJECT_DIR$/.idea/modules/1028963613/education.controller.iml" group="education.controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1028963613/education.controller_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1028963613/education.controller_main.iml" group="education.controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1028963613/education.controller_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1028963613/education.controller_test.iml" group="education.controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-734777420/education.parent.iml" filepath="$PROJECT_DIR$/.idea/modules/-734777420/education.parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-734777420/education.parent_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-734777420/education.parent_main.iml" group="education.parent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-734777420/education.parent_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-734777420/education.parent_test.iml" group="education.parent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-309281355/education.stand.iml" filepath="$PROJECT_DIR$/.idea/modules/-309281355/education.stand.iml" group="education.stand" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-309281355/education.stand_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-309281355/education.stand_main.iml" group="education.stand" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-309281355/education.stand_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-309281355/education.stand_test.iml" group="education.stand" />
+    </modules>
+  </component>
+</project>

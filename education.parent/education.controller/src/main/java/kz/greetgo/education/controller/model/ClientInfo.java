@@ -1,53 +1,77 @@
 package kz.greetgo.education.controller.model;
 
 public class ClientInfo {
-  public String id;
-  public String surname;
-  public String name;
-  public String patronymic;
-  public Integer age;
-
-  public ClientInfo(){
-    
-  }
-  
-  public static Builder newBuilder(){
-    return new ClientInfo().new Builder();
-  }
-
-  public class Builder{
-    private Builder() {
-      // private constructor
+    public String id;
+    public String name;
+    public String surname;
+    public String birthDate;
+    public String telephone;
+    public String email;
+    public String address;
+    public ClientInfo(String id,String name,String surname,String birthDate,String telephone,String email,String address){
+        this.id = id;
+        this.birthDate = birthDate;
+        this.name = name;
+        this.surname = surname;
+        this.telephone = telephone;
+        this.email = email;
+        this.address = address;
     }
 
-    public Builder setId(String id){
-      ClientInfo.this.id=id;
-      return this;
+    public String getId() {
+        return id;
     }
 
-    public Builder setSurname(String surname){
-      ClientInfo.this.surname=surname;
-      return this;
+    public String getName() {
+        return name;
     }
 
-    public Builder setName(String name){
-      ClientInfo.this.name=name;
-      return this;
+    public String getSurname() {
+        return surname;
     }
 
-    public Builder setPatronymic(String patronymic){
-      ClientInfo.this.patronymic=patronymic;
-      return this;
+    public String getBirthDate() {
+        return birthDate;
     }
 
-    public Builder setAge(Integer age){
-      ClientInfo.this.age=age;
-      return this;
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
     }
 
-    public ClientInfo build() {
-      return ClientInfo.this;
+    public String getTelephone() {
+        return telephone;
     }
-  }
+
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
 }
 

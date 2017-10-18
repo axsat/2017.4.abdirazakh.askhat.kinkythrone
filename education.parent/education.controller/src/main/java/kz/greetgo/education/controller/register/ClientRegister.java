@@ -1,14 +1,12 @@
 package kz.greetgo.education.controller.register;
 
 import kz.greetgo.education.controller.model.ClientInfo;
-import kz.greetgo.education.controller.model.ClientListDetails;
+
+import java.util.List;
+import java.util.Map;
 
 public interface ClientRegister {
-  ClientListDetails getClientList();
-
-  ClientInfo getClientInfo(String clientId);
-
-  ClientInfo saveClientInfo(ClientInfo clientInfo);
-
-  Void deleteClientInfo(String clientId);
+    List<ClientInfo> getClientList();
+    String getClientDelete(String json);
+    String getClientAdd(String json);
 }
