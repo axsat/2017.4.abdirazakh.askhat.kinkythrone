@@ -1,0 +1,5 @@
+.gradle/
+build/
+education.controller/out/
+education.stand/out/
+education.stand/build/

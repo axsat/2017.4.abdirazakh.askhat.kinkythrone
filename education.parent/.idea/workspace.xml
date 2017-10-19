@@ -45,11 +45,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClientRegisterStandImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/ClientRegisterStandImpl.java">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education.client/front/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="-2138">
+              <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education.client/front/templates/views/users.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Author.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/model/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education.client/front/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -74,12 +104,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/application/gradle-4.2" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.2" />
+        <entry key="$PROJECT_DIR$" value="3.5" />
       </map>
     </option>
     <option name="availableProjects">
@@ -534,11 +564,147 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/education.stand">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':education.stand'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':education.stand'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':education.stand'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':education.stand'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':education.stand'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':education.stand'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':education.stand'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':education.stand'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':education.stand'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/education.stand" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7539302467000" />
+        <entry key="$PROJECT_DIR$" value="7541741676000" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3740297312" />
         <entry key="$PROJECT_DIR$/education.client/build.gradle" value="0" />
         <entry key="$PROJECT_DIR$/education.stand/build.gradle" value="2265242166" />
@@ -584,78 +750,6 @@
               <option name="name" value="education.parent" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-tooling-api-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-core-api-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-runtime-api-info-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-jvm-services-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-core-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-launcher-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-base-services-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-messaging-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-cli-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-wrapper-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-build-cache-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-resources-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-base-services-groovy-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-persistent-cache-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-model-groovy-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/ant-1.9.6.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-logging-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-model-core-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-process-services-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-kotlin-dsl-tooling-builders-0.11.1.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/groovy-all-2.4.11.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-docs-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-native-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-kotlin-dsl-tooling-models-0.11.1.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-installation-beacon-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/gradle-kotlin-dsl-0.11.1.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-language-scala-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-plugin-development-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-build-cache-http-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-ide-play-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-testing-base-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-tooling-api-builders-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-signing-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-test-kit-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-antlr-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-dependency-management-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-workers-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-maven-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-ide-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-plugin-use-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-testing-jvm-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-language-native-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-javascript-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-platform-base-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-language-jvm-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-resources-s3-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-ivy-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-resources-gcs-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-reporting-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-build-init-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-announce-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-platform-native-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-testing-native-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-resources-http-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-plugins-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-platform-play-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-resources-sftp-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-jacoco-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-publish-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-ear-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-platform-jvm-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-language-groovy-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-ide-native-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-build-comparison-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-composite-builds-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-language-java-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-diagnostics-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-osgi-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-scala-4.2.jar" />
-                  <option value="$USER_HOME$/application/gradle-4.2/lib/plugins/gradle-code-quality-4.2.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -672,22 +766,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/model/ClientDot.java" />
-        <option value="$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/model/ClientInfo.java" />
-        <option value="$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/db/Db.java" />
         <option value="$PROJECT_DIR$/education.client/package.json" />
         <option value="$PROJECT_DIR$/education.client/build.gradle" />
         <option value="$PROJECT_DIR$/education.client/front/templates/index.html" />
-        <option value="$PROJECT_DIR$/education.client/front/templates/views/log.html" />
         <option value="$PROJECT_DIR$/education.client/front/js/main.js" />
         <option value="$PROJECT_DIR$/education.client/gulpfile.js" />
         <option value="$PROJECT_DIR$/education.client/front/css/main.css" />
-        <option value="$PROJECT_DIR$/education.client/front/js/app.js" />
-        <option value="$PROJECT_DIR$/education.client/front/templates/views/users.html" />
         <option value="$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/controller/ClientController.java" />
         <option value="$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/register/ClientRegister.java" />
-        <option value="$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/ClientRegisterStandImpl.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/education.client/front/templates/views/log.html" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/model/ClientDot.java" />
+        <option value="$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/db/Db.java" />
+        <option value="$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/model/ClientInfo.java" />
+        <option value="$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/ClientRegisterStandImpl.java" />
+        <option value="$PROJECT_DIR$/education.client/front/templates/views/users.html" />
+        <option value="$PROJECT_DIR$/education.client/front/js/app.js" />
+        <option value="$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/model/Author.java" />
       </list>
     </option>
   </component>
@@ -696,6 +792,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/education.client/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="50" />
@@ -719,25 +818,142 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="education.client" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="education.client" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="education.client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.controller" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.controller" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.controller" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.controller" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.controller" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.controller" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.controller" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.stand" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.stand" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.stand" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.stand" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.stand" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.stand" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stand" type="462c0819:PsiDirectoryNode" />
+              <item name="register_stand_impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.stand" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stand" type="462c0819:PsiDirectoryNode" />
+              <item name="register_stand_impl" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education.parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="education.parent" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="education.stand" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stand" type="462c0819:PsiDirectoryNode" />
+              <item name="register_stand_impl" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -895,17 +1111,23 @@
       <workItem from="1508332278360" duration="8941000" />
       <workItem from="1508344916925" duration="1061000" />
       <workItem from="1508351790893" duration="20000" />
+      <workItem from="1508351958605" duration="536000" />
+      <workItem from="1508354984010" duration="8913000" />
+      <workItem from="1508421894560" duration="111000" />
+      <workItem from="1508409290824" duration="732000" />
+      <workItem from="1508411598930" duration="4416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34662000" />
+    <option name="totallyTimeSpent" value="49370000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="50" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -916,9 +1138,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20876494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21832669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32908365" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828686" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -929,11 +1151,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -975,36 +1196,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/BeanConfigRegisterStandImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/beans/StandServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/controller/BeanConfigControllers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/ClientRegisterStandImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,22 +1221,8 @@
     <entry file="file://$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/controller/IntroductionController.java" />
     <entry file="file://$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/model/AuthInfo.java" />
     <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/model/PersonDot.java" />
-    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/model/ClientDot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/AuthRegisterStandImpl.java" />
     <entry file="file://$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/register/AuthRegister.java" />
-    <entry file="file://$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/model/ClientInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/UserRegisterStandImpl.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1047,20 +1237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/BeanConfigRegisterStandImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/launcher/LaunchStandServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1092,13 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/db/Db.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/education.client/front/js/vendors/angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1127,13 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/education.client/front/templates/views/log.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/education.client/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1143,13 +1305,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/education.client/dist/index.html" />
     <entry file="file://$PROJECT_DIR$/education.parent.iml" />
-    <entry file="file://$PROJECT_DIR$/education.client/front/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/education.client/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1157,42 +1312,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/education.client/front/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="29" column="78" lean-forward="true" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education.client/front/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20160810/92f4b89bc0bb4c7c3f7b52724568a901b7e0195b/json-20160810-sources.jar!/org/json/JSONObject.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20160810/92f4b89bc0bb4c7c3f7b52724568a901b7e0195b/json-20160810-sources.jar!/org/json/Cookie.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20160810/92f4b89bc0bb4c7c3f7b52724568a901b7e0195b/json-20160810-sources.jar!/org/json/CDL.java" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/util/Modules.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-299">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/controller/ClientController.java">
+    <entry file="file://$PROJECT_DIR$/education.stand/src/main/resources/log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.client/front/templates/views/log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/education.stand/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="62" />
+          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.client/front/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/controller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding>
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/BeanConfigRegisterStandImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,25 +1383,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education.client/front/templates/views/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/ClientRegisterStandImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="72" column="45" lean-forward="false" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/db/Db.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="159" lean-forward="false" selection-start-line="19" selection-start-column="159" selection-end-line="19" selection-end-column="159" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/launcher/LaunchStandServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.controller/src/main/java/kz/greetgo/education/controller/model/ClientInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.stand/out/production/classes/kz/greetgo/education/stand/register_stand_impl/db/Db.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.client/front/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2138">
+          <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.client/front/templates/views/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.client/front/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.stand/src/main/java/kz/greetgo/education/stand/register_stand_impl/model/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":education.stand:test" external.linked.project.path="$MODULE_DIR$/../../../education.stand" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="kz.greetgo.asd" external.system.module.type="sourceSet" external.system.module.version="001" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../../education.stand/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../education.stand/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../education.stand/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../education.stand/src/test/java" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../education.stand/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="education.stand_main" />
+    <orderEntry type="module" module-name="education.controller_main" />
+    <orderEntry type="library" name="Gradle: kz.greetgo.depinject:greetgo.depinject.gen:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: kz.greetgo.mvc:greetgo.mvc:2.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: kz.greetgo.mvc:greetgo.mvc.jetty:2.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.json:json:20160810" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:12.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.testng:testng:6.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.easytesting:fest-assert-core:2.0M10" level="project" />
+    <orderEntry type="library" name="Gradle: kz.greetgo.depinject:greetgo.depinject:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-log4j12:1.7.21" level="project" />
+    <orderEntry type="library" name="Gradle: kz.greetgo:greetgo.java_compiler:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: kz.greetgo:greetgo.class_scanner:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:2.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: kz.greetgo.mvc:greetgo.mvc.util:2.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.7.3" level="project" />
+    <orderEntry type="library" name="Gradle: kz.greetgo.mvc:greetgo.mvc.war:2.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.3.0.RC0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlet:9.3.0.RC0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-webapp:9.3.0.RC0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-transports-http:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-frontend-jaxws:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:1.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.beanshell:bsh:2.0b4" level="project" />
+    <orderEntry type="library" name="Gradle: com.beust:jcommander:1.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.easytesting:fest-util:1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Gradle: com.metapossum:metapossum-scanner:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.7.3" level="project" />
+    <orderEntry type="library" name="Gradle: kz.greetgo.mvc:greetgo.mvc.security:2.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.3.0.RC0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.3.0.RC0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-security:9.3.0.RC0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-xml:9.3.0.RC0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-core:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: xml-resolver:xml-resolver:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-bindings-soap:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-bindings-xml:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-frontend-simple:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-ws-addr:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: commons-io:commons-io:2.3" level="project" />
+    <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.3.0.RC0" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.ws.xmlschema:xmlschema-core:2.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-wsdl:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-databinding-jaxb:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-ws-policy:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: wsdl4j:wsdl4j:1.6.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.xml.bind:jaxb-impl:2.2.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.xml.bind:jaxb-core:2.2.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.neethi:neethi:3.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: kz.greetgo:greetgo.util:2.0.0" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="education.stand_main" />
+</module>

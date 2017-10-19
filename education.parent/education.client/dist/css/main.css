@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+}
+
+.main{
+    color: darkred;
+}
+.users{
+    width: 80%;
+    margin: 0 auto;
+}
+.users table{
+    width: 100%;
+}
+.users table td{
+    text-align: center;
+}
+.users table tr:nth-child(odd):hover{
+    background-color: black;
+    color: aliceblue;
+}
+.users table tr:nth-child(even):hover{
+    background-color: black;
+    color: aliceblue;
+}
+.users table,.users th ,.users td  {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.users table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+.users table tr:nth-child(even) {
+    background-color: #ffffff;
+}
