@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: #211111;
 }
 
 .main{
@@ -33,4 +33,17 @@ body{
 }
 .users table tr:nth-child(even) {
     background-color: #ffffff;
+}
+.users h4{
+    font-size: 30px;
+}
+.users i{
+    font-size: 13px;
+    padding-left: 0px;
+}
+.leftSided *{
+    text-align: left;
+}
+.users .avatarInput{
+    width: 70%;
 }

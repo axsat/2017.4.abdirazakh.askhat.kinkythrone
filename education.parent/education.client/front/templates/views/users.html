@@ -1,48 +1,39 @@
 <div class="users">
-    <button ng-click="add()">Add</button>
-    <button ng-click="edit()"  value="Edit" ng-disabled="disButtons">Edit</button>
-    <button ng-click="delete(mainSelectedId)" ng-disabled="disButtons">Delete</button>
 
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Username</th>
-            <th>Surname</th>
-            <th>Date of Birth</th>
-            <th>Email</th>
-            <th>Telephone</th>
-            <th>Address</th>
-            <th>Main Genre</th>
-            <th>Password</th>
-            <th>Avatar</th>
-            <th>Id</th>
-        </tr>
+    <div></div>
+    <table class="mainTable">
+
         <tr ng-repeat="n in data" class="line">
-            <td ng-click="myFunc(n.id)">{{n.name}}</td>
-            <td ng-click="myFunc(n.id)">{{n.username}}</td>
-            <td ng-click="myFunc(n.id)">{{n.surname}}</td>
-            <td ng-click="myFunc(n.id)">{{n.birthDate}}</td>
-            <td ng-click="myFunc(n.id)">{{n.email}}</td>
-            <td ng-click="myFunc(n.id)">{{n.telephone}}</td>
-            <td ng-click="myFunc(n.id)">{{n.address}}</td>
-            <td ng-click="myFunc(n.id)">{{n.mainGenre}}</td>
-            <td ng-click="myFunc(n.id)">{{n.password}}</td>
-            <td ng-click="myFunc(n.id)">{{n.avatar}}</td>
-            <td ng-click="myFunc(n.id)">{{n.id}}</td>
+            <td ng-click="myFunc(n.id)"><h4 >{{n.username}} <i> id:{{n.id}}</i></h4><img src="{{n.avatar}}" width="300"/></td>
+            <td class="leftSided" ng-click="myFunc(n.id)">
+                <p>Name: <b>{{n.name}}</b></p>
+                <p>Surname: <b>{{n.surname}}</b></p>
+                <p>Date of Birth: <b>{{n.birthDate}}</b></p>
+                <p>Mail: <b>{{n.email}}</b></p>
+                <p>Telephone: <b>{{n.telephone}}</b></p>
+                <p>Adress: <b>{{n.address}}</b></p>
+                <p>Favourite Genre: <b>{{n.mainGenre}}</b></p>
+            </td>
         </tr>
         <tr>
-            <td><input type="text" ng-model="selectedName"></td>
-            <td><input type="text" ng-model="selectedUserName"></td>
-            <td><input type="text" ng-model="selectedSurname"></td>
-            <td><input type="text" ng-model="selectedBirthDate"></td>
-            <td><input type="text" ng-model="selectedEmail"></td>
-            <td><input type="text" ng-model="selectedTelephone"></td>
-            <td><input type="text" ng-model="selectedAddress"></td>
-            <td><input type="text" ng-model="selectedMainGenre"></td>
-            <td><input type="text" ng-model="selectedPassword"></td>
-            <td><input type="text" ng-model="selectedAvatar"></td>
-            <td>{{mainSelectedId}}</td>
+            <td><p>Username: <input type="text" ng-model="selectedUserName"></p><br>
+                <p>Avatar: <input class="avatarInput" type="text" ng-model="selectedAvatar"></p>
+
+                <button ng-click="add()">Add</button>
+                <button ng-click="edit()"  value="Edit" ng-disabled="disButtons">Edit</button>
+                <button ng-click="delete(mainSelectedId)" ng-disabled="disButtons">Delete</button>
+                <p>Selected ID: {{mainSelectedId}}</p>
+            </td>
+            <td><p>Name: <input type="text" ng-model="selectedName"></p>
+            <p>Surname: <input type="text" ng-model="selectedSurname"></p>
+            <p>BirthDate: <input type="text" ng-model="selectedBirthDate"></p>
+            <p>Email: <input type="text" ng-model="selectedEmail"></p>
+            <p>Telephone: <input type="text" ng-model="selectedTelephone"></p>
+            <p>Address: <input type="text" ng-model="selectedAddress"></p>
+            <p>Favorite Genre: <input type="text" ng-model="selectedMainGenre"></p>
+            <p>Password: <input type="text" ng-model="selectedPassword"></p></td>
         </tr>
+
     </table>
 
 
