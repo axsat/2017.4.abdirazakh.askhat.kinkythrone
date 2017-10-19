@@ -5,6 +5,10 @@ body{
 .main{
     color: darkred;
 }
+.users *{
+
+    font-family: "DejaVu Sans";
+}
 .users{
     width: 80%;
     margin: 0 auto;
@@ -17,14 +21,16 @@ body{
 }
 .users table tr:nth-child(odd):hover{
     background-color: black;
+    border-color:#211111;
     color: aliceblue;
 }
 .users table tr:nth-child(even):hover{
     background-color: black;
     color: aliceblue;
+    border-color:#211111;
 }
 .users table,.users th ,.users td  {
-    border: 1px solid grey;
+    border: 1px solid #211111;
     border-collapse: collapse;
     padding: 5px;
 }
@@ -41,9 +47,28 @@ body{
     font-size: 13px;
     padding-left: 0px;
 }
+.users b{
+    font-family: "Ubuntu Mono";
+
+}
 .leftSided *{
     text-align: left;
 }
 .users .avatarInput{
     width: 70%;
+}
+.users button{
+    border:0;
+    width:20%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #726262;
+    color:#211111;
+    border-radius: 100px;
+}
+.users button:hover{
+    border-radius: 5px;
+
+    background-color: yellow;
+    color:#211111;
 }

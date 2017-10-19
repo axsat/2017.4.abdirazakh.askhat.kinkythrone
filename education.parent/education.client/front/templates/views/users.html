@@ -19,9 +19,9 @@
             <td><p>Username: <input type="text" ng-model="selectedUserName"></p><br>
                 <p>Avatar: <input class="avatarInput" type="text" ng-model="selectedAvatar"></p>
 
-                <button ng-click="add()">Add</button>
+                <button class="leftButton" ng-click="add()">Add</button>
                 <button ng-click="edit()"  value="Edit" ng-disabled="disButtons">Edit</button>
-                <button ng-click="delete(mainSelectedId)" ng-disabled="disButtons">Delete</button>
+                <button class="rightButton" ng-click="delete(mainSelectedId)" ng-disabled="disButtons">Delete</button>
                 <p>Selected ID: {{mainSelectedId}}</p>
             </td>
             <td><p>Name: <input type="text" ng-model="selectedName"></p>
