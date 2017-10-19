@@ -14,6 +14,7 @@
             <th>Address</th>
             <th>Main Genre</th>
             <th>Password</th>
+            <th>Avatar</th>
             <th>Id</th>
         </tr>
         <tr ng-repeat="n in data" class="line">
@@ -26,6 +27,7 @@
             <td ng-click="myFunc(n.id)">{{n.address}}</td>
             <td ng-click="myFunc(n.id)">{{n.mainGenre}}</td>
             <td ng-click="myFunc(n.id)">{{n.password}}</td>
+            <td ng-click="myFunc(n.id)">{{n.avatar}}</td>
             <td ng-click="myFunc(n.id)">{{n.id}}</td>
         </tr>
         <tr>
@@ -38,6 +40,7 @@
             <td><input type="text" ng-model="selectedAddress"></td>
             <td><input type="text" ng-model="selectedMainGenre"></td>
             <td><input type="text" ng-model="selectedPassword"></td>
+            <td><input type="text" ng-model="selectedAvatar"></td>
             <td>{{mainSelectedId}}</td>
         </tr>
     </table>

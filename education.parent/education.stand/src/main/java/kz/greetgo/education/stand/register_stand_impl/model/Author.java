@@ -15,7 +15,7 @@ public class Author {
     private String mainGenre;//optional
     private String avatar;//optional
     public Author(String id, String username, String name, String surname, String birthDate, String telephone, String email
-            , String address, String password, String mainGenre){
+            , String address, String password, String mainGenre,String avatar){
         this.id = id;
         this.username=username;
         this.birthDate = birthDate;
@@ -28,8 +28,11 @@ public class Author {
         this.mainGenre = mainGenre;
         this.works=new int[500];
         this.numberOfWorks=0;
-        this.avatar="https://pp.userapi.com/c639531/v639531869/17738a/xoN1yZsKvyc.jpg";
+        if(avatar=="") this.avatar="https://pp.userapi.com/c639531/v639531869/17738a/xoN1yZsKvyc.jpg";
+        else this.avatar=avatar;
     }
+
+    public String getAvatar(){return avatar;}
 
     public String getUsername(){ return username; }
 
@@ -101,6 +104,8 @@ public class Author {
     public void setPassword(String  password){this.password = password;}
 
     public void setMainGenre(String mainGenre){this.mainGenre = mainGenre;}
+
+    public void setAvatar(String avatar){this.avatar=avatar;}
 
     public void addWork(String workId){
         int tempId=Integer.parseInt(workId);//simultaneous sort adding. Don't know why did I do that

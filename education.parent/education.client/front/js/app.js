@@ -38,6 +38,7 @@ angular.module('MyApp', ['ui.router'])
                             $scope.selectedUserName=null;
                             $scope.selectedPassword=null;
                             $scope.selectedMainGenre=null;
+                            $scope.selectedAvatar=null;
                             $scope.disButtons=true;
                         }
                         else {
@@ -55,6 +56,7 @@ angular.module('MyApp', ['ui.router'])
                                     $scope.selectedPassword=$scope.data[i].password;
                                     $scope.selectedUserName=$scope.data[i].username;
                                     $scope.selectedMainGenre=$scope.data[i].mainGenre;
+                                    $scope.selectedAvatar=$scope.data[i].avatar;
                                 }
                             }
                         }
@@ -82,6 +84,7 @@ angular.module('MyApp', ['ui.router'])
                             $scope.selectedUserName=null;
                             $scope.selectedPassword=null;
                             $scope.selectedMainGenre=null;
+                            $scope.selectedAvatar=null;
                             $scope.disButtons=true;
                             $scope.list();
                         });
@@ -97,7 +100,8 @@ angular.module('MyApp', ['ui.router'])
                             "email" : $scope.selectedEmail,
                             "address" : $scope.selectedAddress,
                             "password" : $scope.selectedPassword,
-                            "mainGenre" : $scope.selectedMainGenre
+                            "mainGenre" : $scope.selectedMainGenre,
+                            "avatar" : $scope.selectedAvatar
                         };
 
                         $http.post("http://localhost:1314/education/api/mycode/add",data,{
@@ -117,6 +121,7 @@ angular.module('MyApp', ['ui.router'])
                             $scope.selectedUserName=null;
                             $scope.selectedPassword=null;
                             $scope.selectedMainGenre=null;
+                            $scope.selectedAvatar=null;
                             $scope.disButtons=true;
                             $scope.list();
                         });
@@ -132,7 +137,8 @@ angular.module('MyApp', ['ui.router'])
                             "email" : $scope.selectedEmail,
                             "address" : $scope.selectedAddress,
                             "password" : $scope.selectedPassword,
-                            "mainGenre" : $scope.selectedMainGenre
+                            "mainGenre" : $scope.selectedMainGenre,
+                            "avatar" : $scope.selectedAvatar
                         };
 
                         $http.post("http://localhost:1314/education/api/mycode/add",data,{
@@ -152,6 +158,7 @@ angular.module('MyApp', ['ui.router'])
                             $scope.selectedUserName=null;
                             $scope.selectedPassword=null;
                             $scope.selectedMainGenre=null;
+                            $scope.selectedAvatar=null;
                             $scope.disButtons=true;
                             $scope.list();
                         });
@@ -167,6 +174,7 @@ angular.module('MyApp', ['ui.router'])
                     $scope.selectedUserName=null;
                     $scope.selectedPassword=null;
                     $scope.selectedMainGenre=null;
+                    $scope.selectedAvatar=null;
 
                     $scope.list();
                 }

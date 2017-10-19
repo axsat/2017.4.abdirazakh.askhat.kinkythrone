@@ -21,7 +21,7 @@ public class ClientRegisterStandImpl implements ClientRegister {
         List<ClientInfo> clientInfo = new ArrayList<ClientInfo>();
         for(Author author : db.get().clientStorage.values()){
             ClientInfo ci = new ClientInfo(author.getId(), author.getUsername(), author.getName(), author.getSurname(), author.getBirthDate(), author.getTelephone(), author.getEmail()
-                    , author.getAddress(),author.getPassword(),author.getMainGenre());
+                    , author.getAddress(),author.getPassword(),author.getMainGenre(),author.getAvatar());
             clientInfo.add(ci);
         }
         return clientInfo;
@@ -51,12 +51,13 @@ public class ClientRegisterStandImpl implements ClientRegister {
         String address = obj.getString("address");
         String password =obj.getString("password");
         String mainGenre = obj.getString("mainGenre");
+        String avatar = obj.getString("avatar");
 
         System.out.print(id);
         if(id.length()==0) {
             Random random =new Random();
             long a=random.nextLong();
-            db.get().clientStorage.put(""+a,new Author(""+a,username,name,surname,birthDate,telephone,email,address,password,mainGenre));
+            db.get().clientStorage.put(""+a,new Author(""+a,username,name,surname,birthDate,telephone,email,address,password,mainGenre,avatar));
             return "Ok insert";
         }
         else{
@@ -70,6 +71,7 @@ public class ClientRegisterStandImpl implements ClientRegister {
             ci.setBirthDate(birthDate);
             ci.setName(name);
             ci.setSurname(surname);
+            ci.setAvatar(avatar);
             db.get().clientStorage.put(id,ci);
             return "Ok update";
         }
