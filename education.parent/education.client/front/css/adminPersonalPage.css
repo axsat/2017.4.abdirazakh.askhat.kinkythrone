@@ -1,0 +1,27 @@
+
+
+.adminPersonalPage *{
+    font-family: "DejaVu Sans";
+}
+.adminPersonalPage{
+    width: 80%;
+    margin: 0 auto;
+}
+.adminPersonalPage div{
+    width: 100%;
+    background-color: ghostwhite;
+}
+.adminPersonalPage h4{
+    font-size: 30px;
+}
+.adminPersonalPage i{
+    font-size: 13px;
+    padding-left: 0px;
+}
+.adminPersonalPage b{
+    font-family: "Ubuntu Mono";
+
+}
+.adminPersonalPage h2{
+    color: #2059a6;
+}

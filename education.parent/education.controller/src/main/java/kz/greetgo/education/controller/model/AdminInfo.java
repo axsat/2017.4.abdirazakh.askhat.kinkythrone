@@ -1,6 +1,6 @@
-package kz.greetgo.education.stand.register_stand_impl.model;
+package kz.greetgo.education.controller.model;
 
-public class Author {
+public class AdminInfo {
     private String id;
     private String username;
     private String name;//optional
@@ -14,8 +14,8 @@ public class Author {
     private int numberOfWorks;
     private String mainGenre;//optional
     private String avatar;//optional
-    public Author(String id, String username, String name, String surname, String birthDate, String telephone, String email
-            , String address, String password, String mainGenre,String avatar){
+    public AdminInfo(String id, String username, String name, String surname, String birthDate, String telephone, String email
+            , String address, String password, String mainGenre, String avatar){
         this.id = id;
         this.username=username;
         this.birthDate = birthDate;
@@ -25,11 +25,11 @@ public class Author {
         this.email = email;
         this.address = address;
         this.password=password;
-        this.mainGenre = mainGenre;
+        this.mainGenre=mainGenre;
+        if(avatar=="") this.avatar="https://pp.userapi.com/c639531/v639531869/17738a/xoN1yZsKvyc.jpg";
+        else this.avatar=avatar;
         this.works=new int[500];
         this.numberOfWorks=0;
-        if(avatar=="") this.avatar="css/images/predator.jpg";
-        else this.avatar=avatar;
     }
 
     public String getAvatar(){return avatar;}
@@ -41,11 +41,7 @@ public class Author {
     public String getPassword() { return password; }
 
     @Override
-    public String toString() {
-        return username+","+name+
-                ","+surname+","+birthDate+","+telephone+","+email+
-                ","+address+","+mainGenre+","+avatar+","+this.getWorksString();
-    }
+    public String toString() { return "id-"+id+" : "+username+" : "+email; }
 
     public String getId() {
         return id;
@@ -107,7 +103,7 @@ public class Author {
 
     public void setPassword(String  password){this.password = password;}
 
-    public void setMainGenre(String mainGenre){this.mainGenre = mainGenre;}
+    public void setMaingenre(String mainGenre){this.mainGenre=mainGenre;}
 
     public void setAvatar(String avatar){this.avatar=avatar;}
 
@@ -124,7 +120,7 @@ public class Author {
                 for(int j=numberOfWorks;j>0;j--){
                     works[j]=works[j-1];
                 }
-                works[0]=tempId;
+            works[0]=tempId;
         }
     }
 
@@ -143,3 +139,4 @@ public class Author {
         return tempWorks;
     }
 }
+

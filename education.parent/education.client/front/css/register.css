@@ -1,0 +1,69 @@
+
+
+.register *{
+    font-family: "DejaVu Sans";
+}
+.register{
+    width: 80%;
+    margin: 0 auto;
+}
+.register table{
+    width: 100%;
+}
+.register table td{
+    text-align: center;
+}
+.register table tr:nth-child(odd):hover{
+    background-color: #050505;
+    border-color:#211111;
+    color: aliceblue;
+}
+.register table tr:nth-child(even):hover{
+    background-color: #050505;
+    color: aliceblue;
+    border-color:#211111;
+}
+
+.register table,.register th ,.register td  {
+    border: 1px solid #211111;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.register table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+.register table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+.register h4{
+    font-size: 30px;
+}
+.register i{
+    font-size: 13px;
+    padding-left: 0px;
+}
+.register b{
+    font-family: "Ubuntu Mono";
+
+}
+.register .avatarInput{
+    width: 70%;
+}
+
+.register .chooseWhoRegisters{
+    background-color: #211111;
+}
+.register .chooseWhoRegisters:hover{
+    background-color: #211111;
+}
+
+.register h2{
+    color: #2059a6;
+}
+.register .rightSide{
+    text-align: center;
+    font-size: 10px;
+}
+.register input{
+    width: 80%;
+}

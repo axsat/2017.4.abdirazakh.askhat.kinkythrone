@@ -1,0 +1,52 @@
+
+.authors *{
+    font-family: "DejaVu Sans";
+}
+.authors{
+    width: 80%;
+    margin: 0 auto;
+}
+.authors table{
+    width: 100%;
+}
+.authors table td{
+    text-align: center;
+}
+.authors table tr:nth-child(odd):hover{
+    background-color: black;
+    border-color:#211111;
+    color: aliceblue;
+}
+.authors table tr:nth-child(even):hover{
+    background-color: black;
+    color: aliceblue;
+    border-color:#211111;
+}
+.authors table,.authors th ,.authors td  {
+    border: 1px solid #211111;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.authors table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+.authors table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+.authors h4{
+    font-size: 30px;
+}
+.authors i{
+    font-size: 13px;
+    padding-left: 0px;
+}
+.authors b{
+    font-family: "Ubuntu Mono";
+
+}
+.leftSided *{
+    text-align: left;
+}
+.authors .avatarInput{
+    width: 70%;
+}

@@ -1,6 +1,6 @@
 package kz.greetgo.education.stand.register_stand_impl.model;
 
-public class Author {
+public class Administrator {
     private String id;
     private String username;
     private String name;//optional
@@ -14,8 +14,8 @@ public class Author {
     private int numberOfWorks;
     private String mainGenre;//optional
     private String avatar;//optional
-    public Author(String id, String username, String name, String surname, String birthDate, String telephone, String email
-            , String address, String password, String mainGenre,String avatar){
+    public Administrator(String id, String username, String name, String surname, String birthDate, String telephone, String email
+            , String address, String password, String mainGenre, String avatar){
         this.id = id;
         this.username=username;
         this.birthDate = birthDate;
@@ -28,7 +28,7 @@ public class Author {
         this.mainGenre = mainGenre;
         this.works=new int[500];
         this.numberOfWorks=0;
-        if(avatar=="") this.avatar="css/images/predator.jpg";
+        if(avatar=="") this.avatar="images/predator.jpg";
         else this.avatar=avatar;
     }
 
@@ -41,11 +41,9 @@ public class Author {
     public String getPassword() { return password; }
 
     @Override
-    public String toString() {
-        return username+","+name+
-                ","+surname+","+birthDate+","+telephone+","+email+
-                ","+address+","+mainGenre+","+avatar+","+this.getWorksString();
-    }
+    public String toString() { return username+","+name+
+            ","+surname+","+birthDate+","+telephone+","+email+
+            ","+address+","+mainGenre+","+avatar+","+this.getWorksString(); }
 
     public String getId() {
         return id;
@@ -132,7 +130,7 @@ public class Author {
         String tempWorks="No Works Yet";
         if(numberOfWorks!=0) tempWorks=""+works[0];
         for (int i=1;i<numberOfWorks;i++)
-            tempWorks+="; "+works[i];
+            tempWorks+=";"+works[i];
         return tempWorks;
     }
 

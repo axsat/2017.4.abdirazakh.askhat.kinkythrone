@@ -1,63 +1,29 @@
 body{
-    background-color: #211111;
-}
-
-.main{
-    color: darkred;
-}
-.users *{
-
-    font-family: "DejaVu Sans";
-}
-.users{
-    width: 80%;
-    margin: 0 auto;
-}
-.users table{
-    width: 100%;
-}
-.users table td{
-    text-align: center;
-}
-.users table tr:nth-child(odd):hover{
-    background-color: black;
-    border-color:#211111;
-    color: aliceblue;
-}
-.users table tr:nth-child(even):hover{
-    background-color: black;
-    color: aliceblue;
-    border-color:#211111;
-}
-.users table,.users th ,.users td  {
-    border: 1px solid #211111;
-    border-collapse: collapse;
-    padding: 5px;
-}
-.users table tr:nth-child(odd) {
-    background-color: #f1f1f1;
-}
-.users table tr:nth-child(even) {
-    background-color: #ffffff;
-}
-.users h4{
-    font-size: 30px;
-}
-.users i{
-    font-size: 13px;
-    padding-left: 0px;
-}
-.users b{
-    font-family: "Ubuntu Mono";
+    background-color: #5b2f2f;
 
 }
+
 .leftSided *{
     text-align: left;
 }
-.users .avatarInput{
-    width: 70%;
+.rightSided *{
+    text-align: right;
 }
-.users button{
+.main{
+    color: #764540;
+}
+
+input{
+    min-width: 200px;
+    min-height: 30px;
+    border-radius: 0;
+}
+input:focus{
+    outline-color: darkred;
+}
+
+
+button{
     border:0;
     width:20%;
     height: 40px;
@@ -65,10 +31,19 @@ body{
     background-color: #726262;
     color:#211111;
     border-radius: 100px;
+    min-width: 110px;
 }
-.users button:hover{
+button:hover{
     border-radius: 5px;
 
     background-color: yellow;
     color:#211111;
+}
+button:disabled{
+
+    background-color: dimgrey;
+    color:lightgrey;
+}
+button:focus{
+    outline: none;
 }

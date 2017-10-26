@@ -1,0 +1,50 @@
+<link href="css/register.css" rel="stylesheet">
+<div class="register">
+
+    <div></div>
+
+    <table class="mainTable">
+        <tr  class="chooseWhoRegisters"><td colspan="2">
+            <h1>Who do YOU want to be?</h1>
+            <button ng-click="whoRegistersFunc(0)">Admin</button>
+            <button ng-click="whoRegistersFunc(1)">Artist</button>
+            <button ng-click="whoRegistersFunc(2)">User</button>
+            <button ng-click="whoRegistersFunc(3)">Moderator</button>
+
+        </td></tr>
+        <tr class="chooseWhoRegisters">
+            <td><p>Username: <br><input type="text" placeholder="Username" ng-model="selectedUserName"></p><br>
+                <p>Avatar: <br><input class="avatarInput" type="text" placeholder="Avatar url" ng-model="selectedAvatar"></p>
+                <button class="registerButton" ng-click="register()"  value="Register" ng-disabled="disButtons">Register</button>
+
+                <p>{{errors}}</p>
+                <h3>You are going to be a great</h3>
+                <h2>{{whoRegisters}}</h2>
+            </td>
+            <td class="rightSide"><p>Name:<br> <input type="text" placeholder="Name" ng-model="selectedName"></p>
+                <p>Surname: <br><input type="text" placeholder="Surname" ng-model="selectedSurname"></p>
+                <p>BirthDate: <br><input type="date"  ng-model="selectedBirthDate"></p>
+                <p>Email: <br><input type="email" placeholder="Email" ng-model="selectedEmail"></p>
+                <p>Telephone: <br><input type="tel" placeholder="Telephone Number" ng-model="selectedTelephone"></p>
+                <p>Address: <br><input type="text" placeholder="Adress" ng-model="selectedAddress"></p>
+                <p>Favorite Genre: <br><input type="text" placeholder="Favorite Genre" ng-model="selectedMainGenre"></p>
+                <p>Password: <br><input type="password" placeholder="Password" ng-model="selectedPassword"></p></td>
+        </tr>
+        <!--
+        <tr ng-repeat="n in data" class="line">
+            <td ng-click="myFunc(n.id)"><h4 >{{n.username}} <i> id:{{n.id}}</i></h4><img src="{{n.avatar}}" width="300"/></td>
+            <td class="leftSided" ng-click="myFunc(n.id)">
+                <p>Name: <b>{{n.name}}</b></p>
+                <p>Surname: <b>{{n.surname}}</b></p>
+                <p>Date of Birth: <b>{{n.birthDate}}</b></p>
+                <p>Mail: <b>{{n.email}}</b></p>
+                <p>Telephone: <b>{{n.telephone}}</b></p>
+                <p>Adress: <b>{{n.address}}</b></p>
+                <p>Favourite Genre: <b>{{n.mainGenre}}</b></p>
+            </td>
+        </tr>
+        -->
+    </table>
+
+
+</div>
